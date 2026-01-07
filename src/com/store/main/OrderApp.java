@@ -7,9 +7,9 @@ import java.util.Iterator;
 public class OrderApp {
     public static void main(String[] args) {
         ArrayList<Order> orders = new ArrayList<>();
-        orders.add(new OnlineOrder(101, 1500));
-        orders.add(new OnlineOrder(102, 2500));
-        orders.add(new OnlineOrder(103, 3500));
+        orders.add(new OnlineOrder(141, 15400));
+        orders.add(new OnlineOrder(142, 25600));
+        orders.add(new OnlineOrder(143, 35900));
         for (Order order : orders) {
             order.processOrder();
             if (order instanceof Payable) {
