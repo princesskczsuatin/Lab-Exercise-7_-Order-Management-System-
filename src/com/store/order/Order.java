@@ -11,9 +11,7 @@ public abstract class Order {
     }
     public abstract void processOrder();
     public String getOrderSummary() {
-        return "The Order ID is: " + orderId +
-               " | Amount of: " + amount +
-               " | The Status is: " + status;
+        return "The Order ID is: " + orderId + " | Amount of: " + amount + " | The Status is: " + status;
     }
     public int getOrderId() {
         return orderId;
